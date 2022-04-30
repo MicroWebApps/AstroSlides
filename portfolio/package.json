@@ -1,0 +1,20 @@
+{
+  "name": "@example/portfolio",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "devDependencies": {
+    "@astrojs/preact": "^0.1.2",
+    "astro": "^1.0.0-beta.20",
+    "sass": "^1.50.1"
+  },
+  "dependencies": {
+    "preact": "^10.7.1",
+    "@babel/core":">=7.0.0-0 <8.0.0"
+  }
+}
