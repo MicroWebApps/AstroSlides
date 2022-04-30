@@ -21,3 +21,6 @@ steps that can be done manually instead of using create command
 
     pnpm run start
     pnpm run build
+
+# Issues
+* changing `outDir: '../docs/empty'` in `astro.config.mjs` results in error `Cannot find package 'shorthash' imported from D:\Dev\MicroWebApps\AstroSlides\docs\empty\entry.mjs`
