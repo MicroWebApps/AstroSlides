@@ -31,4 +31,4 @@ steps that can be done manually instead of using create command
 ## porting
 * config update to `import config from '../../astro.config.mjs'`
     * update basePath to base
-
+* import add .js to FullScreen and others `import FullscreenIcon from '@mui/icons-material/Fullscreen.js';`

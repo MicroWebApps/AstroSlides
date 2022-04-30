@@ -4,11 +4,11 @@ import { Paper,Stack,Box,Typography,Button, Modal } from '@mui/material';
 import * as utl from './pz_utils'
 import config from '../../astro.config.mjs'
 import SVG from 'react-inlinesvg';
-import FullscreenIcon from '@mui/icons-material/Fullscreen';
-import LinkIcon from '@mui/icons-material/Link';
-import SmartButtonIcon from '@mui/icons-material/SmartButton';
-import CloseIcon from '@mui/icons-material/Close';
-import HeightIcon from '@mui/icons-material/Height';
+import FullscreenIcon from '@mui/icons-material/Fullscreen.js';
+import LinkIcon from '@mui/icons-material/Link.js';
+import SmartButtonIcon from '@mui/icons-material/SmartButton.js';
+import CloseIcon from '@mui/icons-material/Close.js';
+import HeightIcon from '@mui/icons-material/Height.js';
 
 const modalBoxStyle = {
   position: 'absolute',

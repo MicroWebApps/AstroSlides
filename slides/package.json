@@ -8,7 +8,7 @@
     "build": "astro build",
     "preview": "astro preview"
   },
-  "dependencies": {
+  "devDependencies": {
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
     "@mui/icons-material": "^5.4.2",
@@ -17,9 +17,7 @@
     "@emotion/styled": "^11.6.0",
     "panzoom": "^9.4.2",
     "@svgdotjs/svg.js": "^3.1.2",
-    "react-inlinesvg": "^2.3.0"
-  },
-  "devDependencies": {
+    "react-inlinesvg": "^2.3.0",
     "@astrojs/react": "^0.1.1",
     "astro": "^1.0.0-beta.20",
     "@babel/core":">=7.0.0-0 <8.0.0"
