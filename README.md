@@ -5,6 +5,8 @@ https://docs.astro.build/en/install/auto/
 
 In addition, the custom part is to integrate Slides SVG Pan Zoom from https://github.com/WebSVG/next-svg
 
+# live demo
+https://microwebapps.github.io/AstroSlides/
 # Creation
 
     pnpm create astro@latest
