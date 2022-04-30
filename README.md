@@ -24,3 +24,4 @@ steps that can be done manually instead of using create command
 
 # Issues
 * changing `outDir: '../docs/empty'` in `astro.config.mjs` results in error `Cannot find package 'shorthash' imported from D:\Dev\MicroWebApps\AstroSlides\docs\empty\entry.mjs`
+* error loading style from subsite `Refused to apply style from 'http://127.0.0.1:5500/AstroSlides/basic/assets/asset.1e198333.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled.`
