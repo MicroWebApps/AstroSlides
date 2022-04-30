@@ -1,6 +1,19 @@
 import { useRef, useState, useEffect} from 'react';
-import panzoom from 'panzoom';
 import { Paper,Stack,Box,Typography,Button, Modal } from '@mui/material';
+
+//import useRef from 'react';
+//import useState from 'react';
+//import useEffect from 'react';
+
+//import Paper from '@mui/material';
+//import Stack from '@mui/material';
+//import Box from '@mui/material';
+//import Typography from '@mui/material';
+//import Button from '@mui/material';
+//import Modal from '@mui/material';
+
+import panzoom from 'panzoom';
+
 import * as utl from './pz_utils'
 import config from '../../astro.config.mjs'
 import SVG from 'react-inlinesvg';
