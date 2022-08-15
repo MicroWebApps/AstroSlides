@@ -1,0 +1,29 @@
+{
+  "name": "@example/slides2",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro":"astro"
+  },
+  "devDependencies": {
+    "astro": "^1.0.5",
+    "@astrojs/react": "^1.0.0",
+    "sass": "^1.52.2",
+    "@babel/core":">=7.0.0-0 <8.0.0"
+  },
+  "dependencies": {
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "@mui/icons-material": "^5.4.2",
+    "@mui/material": "^5.4.1",
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "panzoom": "^9.4.2",
+    "@svgdotjs/svg.js": "^3.1.2",
+    "react-inlinesvg": "^2.3.0"
+  }
+}
