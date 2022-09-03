@@ -1,0 +1,24 @@
+---
+import { Paper,Stack,Box,Typography,Button, Modal } from '@mui/material';
+export interface Props {
+	title: string;
+	src: string;
+}
+
+const { title, src } = Astro.props;
+---
+
+<Paper elevation={5} sx={{minWidth:'408px'}}>
+	<Box p={1} >
+		<Box sx={{minWidth:'400px',overflow: 'hidden'}}>
+			<object data={src} class='fit'></object>
+		</Box>
+	</Box>
+</Paper>
+
+<style>
+.fit {
+	min-width:400px;
+	max-width: 80vw;
+}
+</style>
