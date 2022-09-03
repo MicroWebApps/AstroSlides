@@ -1,0 +1,24 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Slide from '../components/Slide.astro';
+---
+
+<Layout title="Welcome to Astro.">
+	<main>
+		<h1>Welcome to <span class="text-gradient">Astro</span></h1>
+		<Slide
+			title="Documentation"
+			src="tiger.svg"
+		/>
+	</main>
+</Layout>
+
+<style>
+	h1 {
+		margin: 2rem 0;
+	}
+
+	main {
+		padding: 1em;
+	}
+</style>

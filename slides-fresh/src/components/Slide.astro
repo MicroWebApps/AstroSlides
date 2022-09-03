@@ -1,0 +1,16 @@
+---
+export interface Props {
+	title: string;
+	src: string;
+}
+
+const { title, src } = Astro.props;
+---
+
+<object data={src} class="fit"></object>
+
+<style>
+.fit {
+	max-width: 60vw;
+}
+</style>
